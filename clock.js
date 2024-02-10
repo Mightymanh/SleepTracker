@@ -47,9 +47,20 @@ function setClock() {
     // display time
     var ampm = hour >= 12 ? 'PM' : 'AM';
     let date = currentDate.getFullYear() + '-' + (currentDate.getMonth() + 1) + '-' + currentDate.getDate();
-    let time = (hour % 12) + ":" + minute + ":" + second + " " + ampm;
+    hour = hour % 12;
+    if (hour < 10) {
+        hour = "0" + hour;
+    }
+    if (minute < 10) {
+        minute = "0" + minute;
+    }
+    if (second < 10) {
+        second = "0" + second;
+    }
+
+    let time = hour + ":" + minute + ":" + second + " " + ampm;
     
-    timeTag.textContent = date + " " + time;
+    timeTag.textContent = date + " | " + time;
 }
 
 setInterval(() => {
