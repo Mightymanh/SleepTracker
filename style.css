@@ -202,12 +202,15 @@ label.dataLabel {
 
 .chart {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 5px;
     gap: 8px;
 }
 
 /* E. Sleepathon */
 #sleepathon {
-    height: 300px;
+    flex: 1;
     background-color: #AAA1C8;
 }
 
