@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     min-height: 100%;
     padding: 0px;
@@ -15,13 +16,11 @@ body {
 
 /* A. Navbar */
 .navbar {
-    font-family: 'Chewy', cursive;
-    font-weight: lighter;
     background-size: cover;
 
     color: #cfa98a;
     background-color: #39397a;
-    padding: 30px 15%;
+    padding: 0px 15%;
     margin: 0px;
     height: 70px;
     display: flex;
@@ -85,7 +84,7 @@ ul {
     color: #d5c6e0;
     top: 14rem;
     left: 48rem;
-    width: 42rem;
+    width: rem;
     font-family: 'Maharlika';
     animation: floatAnimation 4s infinite;
 }
@@ -105,14 +104,11 @@ ul {
 /* C. Content */
 .content {
     margin-top: 50px;
-    padding-right: 15%;
-    padding-left: 15%;
-    padding-top: 30px;
+    padding: 30px 15%;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 60px;
 }
 
 .timeContainer {
@@ -188,11 +184,10 @@ button.addButton {
 
 /* D. Tracker */
 .tracker {
-    color: #39397a;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 80px;
     gap: 8px;
     background-color: #d5c6e0;
@@ -217,7 +212,7 @@ label.dataLabel {
 }
 
 /* E. Tips */
-.Tips {
+.tips {
     border: 10px solid #D5C6E0; /* Pink border */
     border-radius: 15px; /* Rounded corners */
     padding: 20px;
@@ -229,11 +224,12 @@ label.dataLabel {
 .tip {
     margin-bottom: 15px;
     color: #DECBB7;
+    font-size: 20px;
 }
 
 .tips-image {
     position: absolute;
-    top: 95rem;
+    top: 100rem;
     right: 1rem;
     width: 12rem;
 }
