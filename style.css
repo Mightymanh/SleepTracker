@@ -81,7 +81,7 @@ ul {
 
 .floating-text {
     position: absolute;
-    font-size: 50px;
+    font-size: 49px;
     color: #d5c6e0;
     top: 14rem;
     left: 48rem;
@@ -162,9 +162,11 @@ ul {
     margin: 20px;
     width: 700px;
     border-radius: 20px;
-    background-color: #39397a;
+    background-color: #ffb6c1;
     text-align: center;
     padding: 35px;
+    font-size: 30px;
+    font-family: 'Chewy', cursive;
 }
 
 select {
@@ -213,28 +215,16 @@ label.dataLabel {
     gap: 8px;
 }
 
-/* E. Sleepathon */
-#sleepathon {
-    flex: 1;
-    background-color: #AAA1C8;
-}
-
-
-/* Add styling for the Sleepathon box */
-.sleepathon {
-    border: 10px solid #ff69b4; /* Blue border */
+/* E. Tips */
+.Tips {
+    border: 10px solid #D5C6E0; /* Pink border */
     border-radius: 15px; /* Rounded corners */
     padding: 20px;
     margin: 20px 0; /* Add some space around the box */
-    background-color: #e7f1ff; /* Very light blue background */
+    background-color: #AAA1C8; /* Very light blue background */
+    font-family: 'Chewy', cursive;
 }
 
-
-.sleep-tips {
-    background-color: #f0f8ff; /* Light blue background */
-    padding: 20px;
-    margin-top: 10px;
-}
 .tip {
     margin-bottom: 15px;
 }
