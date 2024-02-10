@@ -64,9 +64,9 @@ ul {
 
 .sleep-person-image {
     position: absolute;
-    height: 800px;
-    left: -23rem;
-    top: 10px;
+    top: 13rem;
+    left: -2rem;
+    width: 50rem;
 }
 
 
@@ -212,6 +212,26 @@ label.dataLabel {
 }
 
 
+/* Add styling for the Sleepathon box */
+.sleepathon {
+    border: 10px solid #ff69b4; /* Blue border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px 0; /* Add some space around the box */
+    background-color: #e7f1ff; /* Very light blue background */
+}
+
+
+.sleep-tips {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    margin-top: 10px;
+}
+.tip {
+    margin-bottom: 15px;
+}
+
+
 /* F. Footer */
 .footer {
     display: flex;
@@ -221,6 +241,7 @@ label.dataLabel {
     background-color: #39397A;
     height: 45px;
 }
+
 
 /* .displayTime {
     color: 
@@ -232,3 +253,4 @@ a {
     text-decoration: none;
     color: #cfa98a;
 }
+
