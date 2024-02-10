@@ -4,7 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     min-height: 100%;
     padding: 0px;
@@ -16,11 +15,13 @@ body {
 
 /* A. Navbar */
 .navbar {
+    font-family: 'Chewy', cursive;
+    font-weight: lighter;
     background-size: cover;
 
     color: #cfa98a;
     background-color: #39397a;
-    padding: 0px 15%;
+    padding: 30px 15%;
     margin: 0px;
     height: 70px;
     display: flex;
@@ -104,11 +105,14 @@ ul {
 /* C. Content */
 .content {
     margin-top: 50px;
-    padding: 30px 15%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 30px;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .timeContainer {
@@ -181,10 +185,11 @@ button.addButton {
 
 /* D. Tracker */
 .tracker {
+    color: #cfa98a;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 80px;
     gap: 8px;
     background-color: #d5c6e0;
