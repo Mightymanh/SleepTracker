@@ -84,7 +84,7 @@ ul {
     color: #d5c6e0;
     top: 14rem;
     left: 48rem;
-    width: 40rem;
+    width: 42rem;
     font-family: 'Maharlika';
     animation: floatAnimation 4s infinite;
 }
@@ -165,6 +165,7 @@ ul {
     font-family: 'Chewy', cursive;
 }
 
+
 select {
     width: 80px;
     height: 30px;
@@ -222,8 +223,15 @@ label.dataLabel {
 
 .tip {
     margin-bottom: 15px;
+    color: #DECBB7;
 }
 
+.tips-image {
+    position: absolute;
+    top: 95rem;
+    right: 1rem;
+    width: 12rem;
+}
 
 /* F. Footer */
 .footer {
