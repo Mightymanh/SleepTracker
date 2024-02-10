@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     min-height: 100%;
     padding: 0px;
@@ -11,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f5e6e8;
-    font-family: 'Chewy', cursive;
 }
 
 /* A. Navbar */
@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Chewy', cursive;
 }
 
 
@@ -62,7 +63,42 @@ ul {
 }
 
 .sleep-person-image {
-    height: 600px;
+    position: absolute;
+    height: 800px;
+    left: -23rem;
+    top: 10px;
+}
+
+
+.moon-image{
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    width: 20rem;
+}
+
+
+.floating-text {
+    position: absolute;
+    font-size: 50px;
+    color: #d5c6e0;
+    top: 14rem;
+    left: 48rem;
+    width: 40rem;
+    font-family: 'Maharlika';
+    animation: floatAnimation 4s infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /* C. Content */
@@ -185,12 +221,4 @@ canvas {
 a {
     text-decoration: none;
     color: #cfa98a;
-}
-
-.moon-image{
-    position: absolute;
-    top: 4rem;
-    left: 20rem;
-    width: 20rem;
-
 }
