@@ -85,6 +85,18 @@ setInterval(() => {
         configTimeStop.data.datasets[0].data.push(currentTime);
         myChartStop.update();
 
+        let length;
+        let startDate = xValsStart[xValsStart.length - 1];
+        let startHour = parseInt(yValsStart[yValsStart.length - 1] / 100);
+        if (startHour > hour) {
+            length = startHour + 24 - hour;
+        }
+        else {
+            length = hour - startHour;
+        }
+        configTimeLength.data.labels.push(startDate);
+        configTimeLength.data.datasets[0].data.push(length);
+        myChartLength.update();
     }
 });
 
@@ -118,15 +130,17 @@ function setAlarm() {
     let day = date.getDate();
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
-    let hour = date.getHours();
-    let minute = date.getMinutes();
+    let hour = parseInt(selectMenu[0].value);
+    if (selectMenu[2].value == "PM") {
+        hour = hour + 12;
+    }
+    let minute = parseInt(selectMenu[1].value);
     let currentDate = `${day}/${month}`;
     let currentTime = hour * 100 + minute;
 
     configTimeStart.data.labels.push(currentDate);
     configTimeStart.data.datasets[0].data.push(currentTime);
     myChart.update();
-
 }
 addButton.addEventListener("click", setAlarm);
 
