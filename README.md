@@ -1,7 +1,7 @@
 # SleepTracker
 SleepTracker
 
-## zZz - Sleep Tracker
+## zZz - Sleep Tracker 😴
 
 Project for SparkHacks Hackathon 2024
 
@@ -12,6 +12,8 @@ Manh Phan, Trinh Phan, Thi Tran, Uyen Duong, Trong Gia Hung Nguyen
 ## How to run it:
 
 - paste the path of file index.html on your favorite web browser to run
+  
+- Or you can click on this website link 👉 [https://mightymanh.github.io/SleepTracker/](https://mightymanh.github.io/SleepTracker/)
 
 ## Inspiration
 
